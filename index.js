@@ -19,10 +19,9 @@ $(document).ready(() => {
   });
 });
 
-
 const listenForScroll = e => {
 
-	const header   = document.getElementById('header');
+	const header   = document.getElementById('home');
 	const aboutMe  = document.getElementById('about-me');
 	const tools    = document.getElementById('tools');
 	const projects = document.getElementById('projects');
