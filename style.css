@@ -395,6 +395,17 @@ body, html {
    		font-size: 14px;
    }
 
+   #intro{
+   		margin-top: 50px;
+   }
+	.profile-image{
+       margin-bottom: 20px;
+	}
+	.intro>p{
+		line-height: 1.5rem;
+
+	}
+}
 
 @media all and (min-width: 700px) and (max-width: 922px){
 	 .tool{
@@ -408,7 +419,13 @@ body, html {
 
    }
   
-     
+   .profile-image{
+       margin-bottom: 20px;
+	}
+	.intro>p{
+		line-height: 1.5rem;
+		
+	}
 }
 
 @media all and (min-width: 922px) and (max-width: 1200px){
