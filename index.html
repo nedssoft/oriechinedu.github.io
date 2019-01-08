@@ -10,16 +10,13 @@
 	<meta name="author" content="Orie Chinedu Emmanuel">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Shadows+Into+Light+Two" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
 	<div id="container">
 		<nav class="navbar">
-			<span class="navbar-toggle" id="js-navbar-toggle">
-	           <i class="fas fa-bars"></i>
+			<span class="navbar-toggle" id="js-navbar-toggle" style="font-size: 36px">
+				&#9776;
 	        </span>
 	        <a href="#" class="logo"><img src="img/oriechinedu-2.jpg" width="50px" height="50px"></a>
 			<ul  class="main-nav" id="js-menu">
@@ -111,34 +108,44 @@
 			</div>
 			
 		</div>
+			
 		</section>
 		<section id="projects">
 
 			<div class="services" id="services">
 				<h1>Projects Worked on</h1>
-				<div class="wrapper">
-					<div class="project">
+				<div class="slideshow-container">
+					<div class="project mySlides">
 						<a href="https://121lifestyle.com"/>
 							<img src="img/121lifestyle.png" width="100%">
 						</a>
 					</div>
-					<div class="project">
+					<div class="project mySlides">
 
 						<a href="https://spendtrim.com">
 							<img src="img/spendtrim.png" width="100%">
 						</a>
 	
 					</div>
-					<div class="project">
+					<div class="project mySlides">
 						<a href="https://roomhub.app">
 							<img src="img/roomhub.png" width="100%">
 						</a>
 						
 					</div>
-					<div class="project">
+					<div class="project mySlides">
 						<img src="img/movieflix.png" width="100%">
 						
 					</div>
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+				
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
 				</div>
 			</div>
         </section>
