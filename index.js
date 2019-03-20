@@ -8,17 +8,6 @@ const getYear = () => {
 
 window.oncontextmenu = () => false;
     
-$(document).ready(() => {
-  $('.wrapper').slick({
-	dots: true,
-	infinite: true,
-	slidesToShow: 1,
-	autoplay: true,
-		autoplaySpeed: 2000,
-		arrows: true,
-  });
-});
-
 const listenForScroll = e => {
 
 	const header   = document.getElementById('home');
